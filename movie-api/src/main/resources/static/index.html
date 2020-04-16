@@ -27,7 +27,7 @@
 <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
 <script type="text/javascript">
-$.get("/user", function(data) {
+$.get("/api/users/me", function(data) {
     $("#user").html(data.name);
     $(".unauthenticated").hide()
     $(".authenticated").show()

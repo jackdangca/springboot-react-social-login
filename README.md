@@ -20,7 +20,7 @@ The goal of this project is to implement an application called `movie-app` to ma
 
 - **movie-ui**
 
-  `ReactJS` frontend application where `users` can see the list of movies and `admins` can manage movies. To login, the `user` must provide valid credentials store in his/her social network application. `movie-ui` communicates with `movie-api` to get `movie` and `users` data. It uses [`Semantic UI React`](https://react.semantic-ui.com/) as CSS-styled framework.
+  `ReactJS` frontend application where `users` can see the list of movies and `admins` can manage movies. To login, a `user` or `admin` must provide valid credentials store in his/her social network application. `movie-ui` communicates with `movie-api` to get `movie` and `users` data. It uses [`Semantic UI React`](https://react.semantic-ui.com/) as CSS-styled framework.
 
 ## Creating Github App
 
@@ -90,7 +90,7 @@ TODO
 
 - Go to `movie-api` and `movie-ui` terminals and press `Ctrl+C` on each one
 
-- Stop and remove docker-compose containers, networks and volumes, run the command below in `springboot-react-social-login` root folder
+- To stop and remove docker-compose containers, networks and volumes, run the command below in `springboot-react-social-login` root folder
   ```
   docker-compose down -v
   ```
